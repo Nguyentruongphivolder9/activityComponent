@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ActivityComponent">
         <activity
+            android:taskAffinity=""
+            android:launchMode="singleTask"
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
